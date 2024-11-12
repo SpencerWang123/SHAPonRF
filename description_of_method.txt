@@ -1,0 +1,8 @@
+#安装-R语言下使用以下函数
+install.packages("文件路径/SHAPonRF_0.1.0.tar.gz")
+#一个SHAPonRF函数返回以下功能
+##1 cv_mse:随机森林变量个数交叉验证误差，用于筛选最优模型
+##2 best_rf:交叉验证筛选的最优随机森林模型
+##3 shap_res: 对最优随机森林模型的SHAP解释结果
+##4 SHAP_plots:SHAP结果画图-可以画各变量效应图和变量之间交互效应图
+
